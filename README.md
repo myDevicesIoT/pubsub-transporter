@@ -4,8 +4,8 @@ Google Cloud PubSub for transporter
 ### Usage
 
 ```
-const Transporter = require('transporter');
-const CloudPubSub = require('pubsub-transporter').CloudPubSub;
+const Transporter = require('@mydevices/transporter');
+const CloudPubSub = require('@mydevices/pubsub-transporter').CloudPubSub;
 
 Transporter.add(CloudPubSub, {
     topic: 'projects/myproject/topics',

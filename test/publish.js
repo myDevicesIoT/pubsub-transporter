@@ -1,4 +1,4 @@
-const Transporter = require('transporter');
+const Transporter = require('@mydevices/transporter');
 const pubsub = require('../');
 
 describe('PubSub Test', ()=> {
