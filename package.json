@@ -1,5 +1,5 @@
 {
-  "name": "pubsub-transporter",
+  "name": "@mydevices/pubsub-transporter",
   "version": "1.0.0",
   "description": "Google Cloud PubSub for transporter",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/pubsub": "^0.19.0",
-    "transporter": "git+https://git@github.com/myDevicesIoT/transporter.git"
+    "transporter": "^1.2.5"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
